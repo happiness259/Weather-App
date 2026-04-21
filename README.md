@@ -1,17 +1,66 @@
-# React + Vite
+# 🌤️ Weather App - Happiness
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack weather application built using React, Node.js, Express, and MongoDB. It provides real-time weather information, 5-day forecasts, GPS-based location weather, and search history tracking.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- 🌍 Search weather by city name
+- 📍 Get weather using current GPS location
+- 📅 5-day weather forecast
+- 🧠 Smart weather insights (heat, rain, cold alerts)
+- 🌾 Farmer Mode with agricultural recommendations
+- 📜 Weather search history stored in MongoDB
+- ⚡ REST API backend using Express
+- 💾 MongoDB Atlas database integration
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Weather-App
+**Frontend**
+- React (Vite)
+- Axios
+
+**Backend**
+- Node.js
+- Express.js
+- MongoDB Atlas
+- Mongoose
+
+**API**
+- OpenWeather API
+
+---
+
+## 🧠 Key Highlights
+
+- Full-stack CRUD application
+- REST API development
+- External API integration (OpenWeather)
+- Database persistence with MongoDB
+- Geolocation-based weather detection
+- Clean separation of frontend and backend
+
+---
+
+## 📁 Project Structure
+
+weather-app/
+│
+├── client/        # React frontend
+├── server/        # Node + Express backend
+│   ├── models/
+│   ├── server.js
+│
+└── README.md
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone Repository
+```bash
+git clone https://github.com/your-username/weather-app.git
+cd weather-app
